@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFEFEF">
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="15dp">
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="125dp"
         android:layout_height="125dp"
-        tools:srcCompat="@drawable/ali"
-        />
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ali" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/hafiz_muhammad_ali"
         android:textAllCaps="false"
-        android:textColor="#454545"
+        android:textColor="#404040"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#5F696A"
+        android:fontFamily="@font/berkshire_swash"
+        android:padding="3dp"
         android:text="@string/software_engineer"
-        android:background="#00A1B3"
-        android:textSize="20sp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 </LinearLayout>
