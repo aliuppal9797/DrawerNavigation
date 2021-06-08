@@ -7,7 +7,12 @@
     <string name="reading">Reading</string>
     <string name="read_more">Read More</string>
     <string name="chrome_reader">Chrome Reader</string>
-    <string name="Comments">comments</string>
+    <string name="Comments">Comments</string>
     <string name="add_comments">Add Comments</string>
     <string name="insert_comments">Insert Comments</string>
+    <string name="hafiz_muhammad_ali">Hafiz Muhammad Ali</string>
+    <string name="software_engineer">Software Engineer</string>
+    <string name="open">Opening</string>
+    <string name="close">Closing</string>
+    <string name="book_activity">Book Activity</string>
 </resources>
